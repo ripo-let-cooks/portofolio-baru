@@ -1,0 +1,62 @@
+/* ==========================================================================
+   AMBIENT ANIMATED GRADIENT BACKGROUND
+   Palette: Dominant Deep Navy Blue, Obsidian Black, Ethereal White Accents
+   Physics: 60fps Hardware-Accelerated Canvas & Composite
+   ========================================================================== */
+
+.ambient-background-root {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+  background-color: #020409;
+}
+
+/* --------------------------------------------------------------------------
+   FLUID GRADIENT CANVAS LAYER
+   -------------------------------------------------------------------------- */
+.ambient-canvas {
+  position: absolute;
+  top: -12%;
+  left: -12%;
+  width: 124%;
+  height: 124%;
+  filter: blur(50px);
+  -webkit-filter: blur(50px);
+  transform: translate3d(0, 0, 0);
+  pointer-events: none;
+  will-change: transform;
+}
+
+/* --------------------------------------------------------------------------
+   FINISHING OVERLAYS: Analog Grain & Vignette for Editorial Polish
+   -------------------------------------------------------------------------- */
+/* High-End Analog Grain Texture (eliminates color banding on 8-bit displays) */
+.ambient-grain-overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.038;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
+
+/* Subtle Vignette to frame content elegantly */
+.ambient-vignette {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    ellipse at center,
+    transparent 42%,
+    rgba(2, 4, 10, 0.45) 80%,
+    rgba(1, 2, 6, 0.85) 100%
+  );
+  pointer-events: none;
+}

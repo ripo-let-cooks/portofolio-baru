@@ -1,0 +1,65 @@
+:root {
+  /* ==========================================================================
+     COLOR TOKENS: Minimalist Editorial Palette (Warm Obsidian & Champagne)
+     ========================================================================== */
+  --bg-canvas: #030712;
+  --bg-surface: #091024;
+  --bg-surface-hover: #0F1A38;
+  --bg-surface-subtle: rgba(255, 255, 255, 0.03);
+  
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.16);
+  --border-focus: #F4F4F4;
+  
+  --text-primary: #F4F4F4;
+  --text-secondary: #9B9FA8;
+  --text-muted: #666973;
+  
+  /* Single, restrained warm accent (No neon, No AI purple/cyan glows) */
+  --accent-refined: #E4DDD3;
+  --accent-subtle: rgba(228, 221, 211, 0.08);
+
+  /* Status (Minimal, no endless pulsing rings) */
+  --status-active: #4ADE80;
+  --status-active-subtle: rgba(74, 222, 128, 0.1);
+
+  /* ==========================================================================
+     TYPOGRAPHY TOKENS: Newsreader (Editorial Serif) + Grotesque Sans + Mono
+     ========================================================================== */
+  --font-serif: 'Newsreader', Georgia, Cambria, 'Times New Roman', serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', SFMono-Regular, Menlo, monospace;
+
+  /* ==========================================================================
+     SPACING & LAYOUT (Generous, Breathing Macro-Whitespace)
+     ========================================================================== */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-32: 128px;
+
+  /* ==========================================================================
+     MINIMALIST RADII (No cartoonish over-rounding)
+     ========================================================================== */
+  --radius-xs: 3px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-full: 9999px;
+
+  /* ==========================================================================
+     TRANSITION PHYSICS: Liquid Smooth Interpolation
+     ========================================================================== */
+  --ease-smooth: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-gentle: cubic-bezier(0.25, 1, 0.5, 1);
+  --duration-fast: 180ms;
+  --duration-normal: 320ms;
+  --duration-slow: 600ms;
+}
