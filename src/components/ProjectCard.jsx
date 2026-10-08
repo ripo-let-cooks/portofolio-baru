@@ -133,6 +133,19 @@ export default function ProjectCard({ project, index }) {
 
         {/* Action Link */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+          {(project.links.live || project.links.website) && (
+            <a
+              href={project.links.live || project.links.website}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link-editorial"
+              style={{ fontSize: '13px', fontWeight: 500 }}
+              aria-label={`Visit live website for ${project.title}`}
+            >
+              Live Website &rarr;
+            </a>
+          )}
+
           {project.links.github && (
             <a
               href={project.links.github}

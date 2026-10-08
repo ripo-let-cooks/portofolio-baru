@@ -42,13 +42,28 @@ export const personalData = {
 };
 
 export const projectCategories = [
-  { id: "all", label: "All Works", count: 7 },
-  { id: "web-ai", label: "Web & AI", count: 3 },
+  { id: "all", label: "All Works", count: 8 },
+  { id: "web-ai", label: "Web & AI", count: 4 },
   { id: "mobile-uiux", label: "Mobile & UI/UX", count: 2 },
   { id: "multimedia", label: "Cinematography & Photo", count: 2 }
 ];
 
 export const projectsData = [
+  {
+    id: "firish-os",
+    title: "Firish.OS",
+    subtitle: "F&B Operating System & Multi-Outlet POS",
+    category: "web-ai",
+    categoryBadge: "Web Engineering & UI/UX",
+    year: "2026",
+    summary: "Cloud-based F&B operating system and multi-outlet POS integrating kitchen display systems (KDS), interactive table layouts, real-time inventory & COGS (HPP), and staff payroll.",
+    techStack: ["React", "JavaScript", "UI/UX Design", "Cloud Architecture", "Supabase"],
+    achievement: "Front-End & UI Design at PT. Arina Digital Mandiri",
+    links: {
+      live: "https://firishos.my.id/"
+    },
+    featured: true
+  },
   {
     id: "medisift-ai",
     title: "Medisift AI",
@@ -105,7 +120,7 @@ export const projectsData = [
     techStack: ["JavaScript ES6+", "HTML5 / CSS3", "AOS Animation", "Git"],
     achievement: "+80% Maintenance Efficiency",
     links: {
-      github: "https://github.com/jelita009/web_ieclop.git"
+      live: "https://ieclop.my.id/"
     },
     featured: true
   },
@@ -161,11 +176,16 @@ export const experienceData = [
     company: "PT. Arina Digital Mandiri",
     period: "August 2026 – September 2026",
     status: "Completed",
-    skills: ["Front-End Development", "HTML/CSS", "JavaScript", "Responsive Web"],
+    skills: ["Front-End Development", "UI/UX Design", "React", "JavaScript", "Responsive Web"],
     highlights: [
-      "Engineered responsive, resilient web interface components with smooth user experience.",
-      "Collaborated with engineering teams on layout refinements, accessibility, and web maintenance."
-    ]
+      "Engineered front-end architecture and web interface design for Firish.OS (firishos.my.id), a multi-outlet F&B operating system and POS.",
+      "Designed and implemented modular, responsive UI components ensuring optimal workflows across POS, kitchen display system (KDS), and management modules.",
+      "Collaborated with engineering teams on layout refinements, design consistency, and web performance optimization."
+    ],
+    projectLink: {
+      url: "https://firishos.my.id/",
+      label: "Firish.OS Live Web"
+    }
   },
   {
     id: "ieclop-infocom",
@@ -175,9 +195,13 @@ export const experienceData = [
     status: "Active",
     skills: ["Web Architecture", "UI/UX", "Content Management", "Modular Components"],
     highlights: [
-      "Lead architectural maintenance and continuous deployment for the organization's official web portal.",
+      "Lead architectural maintenance and continuous deployment for the organization's official web portal (ieclop.my.id).",
       "Restructured codebase into modular components, reducing maintenance effort by 80%."
-    ]
+    ],
+    projectLink: {
+      url: "https://ieclop.my.id/",
+      label: "UKM IECLOP Live Portal"
+    }
   },
   {
     id: "sagoe-media",

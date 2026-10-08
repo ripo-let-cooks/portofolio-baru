@@ -22,7 +22,7 @@ export default function Projects() {
             A curation of <span className="font-editorial-italic">interface engineering</span> and <span className="font-editorial-italic">media</span>.
           </h2>
           <p className="scroll-reveal section-subhead delay-2">
-            Comprehensive documentation across 7 key projects covering modern web systems, intelligent prototypes, cinematography, and design architectures.
+            Comprehensive documentation across {projectsData.length} key projects covering modern web systems, intelligent prototypes, cinematography, and design architectures.
           </p>
         </div>
 
@@ -106,7 +106,7 @@ export default function Projects() {
               className="btn-editorial-outline"
               style={{ marginTop: '16px' }}
             >
-              Back to All Works (7)
+              Back to All Works ({projectsData.length})
             </button>
           </div>
         )}

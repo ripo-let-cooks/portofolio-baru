@@ -128,6 +128,30 @@ export default function Experience() {
                     </span>
                   ))}
                 </div>
+
+                {/* Optional Project Reference Link */}
+                {item.projectLink && (
+                  <div style={{ marginTop: '14px' }}>
+                    <a
+                      href={item.projectLink.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="link-editorial"
+                      style={{
+                        fontSize: '12px',
+                        fontFamily: 'var(--font-mono)',
+                        letterSpacing: '0.02em',
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        gap: '6px',
+                      }}
+                      aria-label={`${item.projectLink.label} (${item.company})`}
+                    >
+                      <span>{item.projectLink.label}</span>
+                      <span>&rarr;</span>
+                    </a>
+                  </div>
+                )}
               </div>
             </div>
           ))}
