@@ -9,7 +9,7 @@ export default function Experience() {
         {/* Section Header */}
         <div style={{ marginBottom: 'var(--space-16)' }}>
           <div className="scroll-reveal section-label">
-            <span>03 / Experience</span>
+            <span>04 / Experience</span>
           </div>
           <h2 className="scroll-reveal section-headline delay-1">
             Professional trajectory and <span className="font-editorial-italic">leadership</span>.

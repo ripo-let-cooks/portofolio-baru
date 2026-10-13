@@ -9,7 +9,7 @@ export default function About() {
         {/* Section Header */}
         <div style={{ marginBottom: 'var(--space-16)' }}>
           <div className="scroll-reveal section-label">
-            <span>01 / Core Principles</span>
+            <span>02 / Core Principles</span>
           </div>
           <h2 className="scroll-reveal section-headline delay-1">
             Bridging rigorous software logic with <span className="font-editorial-italic">cinematic aesthetics</span>.

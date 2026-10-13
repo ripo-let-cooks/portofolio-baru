@@ -9,7 +9,7 @@ export default function Skills() {
         {/* Section Header */}
         <div style={{ marginBottom: 'var(--space-16)' }}>
           <div className="scroll-reveal section-label">
-            <span>04 / Skills &amp; Tools</span>
+            <span>05 / Skills &amp; Tools</span>
           </div>
           <h2 className="scroll-reveal section-headline delay-1">
             Technologies, camera instruments, and <span className="font-editorial-italic">automation</span>.

@@ -28,3 +28,6 @@ Thumbs.db
 
 # Private local documentation
 INFORMASI_PRIBADI.md
+
+# Raw certificate source files
+public/certificates/raw-pdf/

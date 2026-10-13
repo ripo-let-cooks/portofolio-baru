@@ -57,7 +57,7 @@ export default function Contact() {
         {/* Section Header */}
         <div style={{ marginBottom: 'var(--space-16)' }}>
           <div className="scroll-reveal section-label">
-            <span>05 / Contact</span>
+            <span>07 / Contact</span>
           </div>
           <h2 className="scroll-reveal section-headline delay-1">
             Opening dialogue for <span className="font-editorial-italic">new opportunities</span>.

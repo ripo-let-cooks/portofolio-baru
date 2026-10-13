@@ -16,7 +16,7 @@ export default function Projects() {
         {/* Section Header */}
         <div style={{ marginBottom: 'var(--space-12)' }}>
           <div className="scroll-reveal section-label">
-            <span>02 / Selected Works</span>
+            <span>03 / Selected Works</span>
           </div>
           <h2 className="scroll-reveal section-headline delay-1">
             A curation of <span className="font-editorial-italic">interface engineering</span> and <span className="font-editorial-italic">media</span>.

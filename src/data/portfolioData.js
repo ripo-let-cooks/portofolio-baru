@@ -246,3 +246,120 @@ export const skillsData = [
     skills: ["AI Engineering Assistance", "Vibe Coding", "Prompt Engineering", "Cerebras API", "Web Optimization"]
   }
 ];
+
+export const certificateCategories = [
+  { id: "all", label: "All Credentials", count: 9 },
+  { id: "higher-ed", label: "Higher Ed & Tech", count: 4 },
+  { id: "high-school", label: "High School & Early Honors", count: 5 }
+];
+
+export const certificatesData = [
+  {
+    id: "cert-arina-frontend",
+    title: "Front-End Developer Internship",
+    issuer: "PT. Arina Digital Mandiri",
+    credentialNo: "ADM-INT-2026-0904",
+    year: "2026",
+    date: "August 9 – September 9, 2026",
+    category: "higher-ed",
+    categoryBadge: "Front-End Engineering",
+    image: "/certificates/cert-arina-frontend.webp",
+    summary: "Awarded for valuable contribution and professional engineering dedication as a Front-End Developer, building responsive web interfaces and the Firish.OS platform."
+  },
+  {
+    id: "cert-sagoe-video",
+    title: "Video Production & Editing Internship",
+    issuer: "PT. Sagoe Media Kreasi (SAGOE TV)",
+    credentialNo: null,
+    year: "2026",
+    date: "February 2025 – July 2026",
+    category: "higher-ed",
+    categoryBadge: "Multimedia & Video",
+    image: "/certificates/cert-sagoe-video.webp",
+    summary: "Recognized for exceptional post-production and camera operation performance as a Video Editing Intern, contributing to 150+ distributed media assets."
+  },
+  {
+    id: "cert-pnl-vibe-coding",
+    title: "Vibe Coding Competition Participant",
+    issuer: "Politeknik Negeri Lhokseumawe (UKM-POLICY)",
+    credentialNo: "8927/DST/PL20/DT.01.01/2026",
+    year: "2026",
+    date: "18–20 September 2026",
+    category: "higher-ed",
+    categoryBadge: "Vibe Coding & AI",
+    image: "/certificates/cert-pnl-vibe-coding.webp",
+    summary: "Competitive participant in the Vibe Coding category at Festival Technology Policy (FTP) III: AI Governance – Technology Guided by Responsibility."
+  },
+  {
+    id: "cert-pnl-ai-governance",
+    title: "AI Governance Seminar Participant",
+    issuer: "Politeknik Negeri Lhokseumawe (UKM-POLICY)",
+    credentialNo: "8928/DST/PL20/DT.01.01/2026",
+    year: "2026",
+    date: "18–20 September 2026",
+    category: "higher-ed",
+    categoryBadge: "Seminar & Tech Policy",
+    image: "/certificates/cert-pnl-ai-governance.webp",
+    summary: "National seminar participant on responsible artificial intelligence development, ethical tech governance, and modern AI frameworks at PNL."
+  },
+  {
+    id: "cert-sma-osis",
+    title: "Wakil Ketua OSIS (2021–2022)",
+    issuer: "SMA Negeri 1 Lhokseumawe",
+    credentialNo: null,
+    year: "2022",
+    date: "23 September 2022",
+    category: "high-school",
+    categoryBadge: "Leadership & Governance",
+    image: "/certificates/cert-sma-osis.webp",
+    summary: "Penghargaan atas kepemimpinan aktif sebagai Wakil Ketua Organisasi Siswa Intra Sekolah (OSIS) masa bakti 2021–2022 di SMA Negeri 1 Lhokseumawe."
+  },
+  {
+    id: "cert-sma-video-upi",
+    title: "Lomba Video Pendek Tingkat Nasional",
+    issuer: "Universitas Pendidikan Indonesia (BEM FPIPS UPI)",
+    credentialNo: "006/GIF/BEMHMPGEO/X/2022",
+    year: "2022",
+    date: "22 Oktober 2022",
+    category: "high-school",
+    categoryBadge: "National Video Competition",
+    image: "/certificates/cert-sma-video-upi.webp",
+    summary: "Mewakili SMA Negeri 1 Lhokseumawe sebagai peserta Lomba Video Pendek Nasional pada Geography Islamic Fair dengan tema 'Manusia Menikmati, Bumi Tersakiti'."
+  },
+  {
+    id: "cert-sma-dispora",
+    title: "Pelatihan Manajemen Waktu Pemuda",
+    issuer: "Dispora Kota Lhokseumawe",
+    credentialNo: "427/64/2022",
+    year: "2022",
+    date: "22 Maret 2022",
+    category: "high-school",
+    categoryBadge: "Youth Development",
+    image: "/certificates/cert-sma-dispora.webp",
+    summary: "Sertifikat partisipasi Pelatihan Manajemen Waktu bagi Pemuda Angkatan I Tahun 2022 yang diselenggarakan oleh Dinas Pemuda, Olahraga, dan Pariwisata Lhokseumawe."
+  },
+  {
+    id: "cert-sma-lbft-2022",
+    title: "Lomba Berhitung Fakultas Teknik XXVIII",
+    issuer: "Universitas Syiah Kuala (USK Banda Aceh)",
+    credentialNo: null,
+    year: "2022",
+    date: "Tahun 2022",
+    category: "high-school",
+    categoryBadge: "Mathematics & Speed Logic",
+    image: "/certificates/cert-sma-lbft-2022.webp",
+    summary: "Peserta Lomba Berhitung Cepat Fakultas Teknik (LBFT) XXVIII yang diadakan oleh Himpunan Mahasiswa Sipil Universitas Syiah Kuala."
+  },
+  {
+    id: "cert-sma-lbft-2020",
+    title: "Lomba Berhitung Fakultas Teknik XXVI",
+    issuer: "Universitas Syiah Kuala (USK Banda Aceh)",
+    credentialNo: null,
+    year: "2020",
+    date: "19 Januari – 16 Februari 2020",
+    category: "high-school",
+    categoryBadge: "Mathematics & Speed Logic",
+    image: "/certificates/cert-sma-lbft-2020.webp",
+    summary: "Peserta kompetisi berhitung cepat tingkat regional pada ajang tahunan LBFT XXVI Fakultas Teknik Universitas Syiah Kuala."
+  }
+];
